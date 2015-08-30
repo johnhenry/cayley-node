@@ -1,12 +1,12 @@
 {
-  "name": "cayley",
-  "version": "0.2.1",
-  "description": "nodejs client for cayley graph database",
+  "name": "cayley-node",
+  "version": "0.0.0",
+  "description": "cayley graph database client node",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/villadora/cayley.js.git"
+    "url": "git://github.com/johnhenry/cayley-node.git"
   },
   "keywords": [
     "cayley",
@@ -14,12 +14,12 @@
     "database"
   ],
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   },
-  "author": "villadora",
+  "author": "John Henry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/villadora/cayley.js/issues"
+    "url": "https://github.com/johnhenry/cayley-node/issues"
   },
   "devDependencies": {
     "chai": "*",
