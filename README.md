@@ -1,14 +1,14 @@
-# cayley.js 
+# cayley-node
 [![NPM version](https://badge.fury.io/js/cayley.svg)](http://badge.fury.io/js/cayley)
 
 <!-- [![Build Status](https://travis-ci.org/villadora/cayley.js.svg?branch=master)](https://travis-ci.org/villadora/cayley.js) -->
 
-[Cayley](http://github.com/google/cayley) client for nodejs.
+[Cayley](http://github.com/google/cayley) graphdatabase client for node.
 
 ## Install
 
 ```bash
-$ npm install cayley --save
+$ npm install cayley-node --save
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ $ npm install cayley --save
 You just need to copy the code of Gremlin!
 
 ```js
-var cayley = require('cayley');
+var cayley = require('cayley-node');
 
 var client = cayley("http://localhost:64210/");
 
